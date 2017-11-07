@@ -9,7 +9,7 @@
             "email": "kajabukama@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "require": {
         "composer-plugin-api": "^1.0",
         "composer/composer": "*",
