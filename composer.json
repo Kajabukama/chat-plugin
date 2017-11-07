@@ -1,5 +1,5 @@
 {
-    "name": "PerformanceSupport/chat-plugin",
+    "name": "performance-support/chat-plugin",
     "description": "A composer chat plugin",
     "type": "composer-plugin",
     "license": "MIT",
@@ -18,8 +18,5 @@
         "psr-4": {
             "PerformanceSupport\\": "src"
         }
-    },
-    "extra": {
-        "class": "PerformanceSupport\\Chat"
     }
 }
