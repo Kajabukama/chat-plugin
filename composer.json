@@ -1,0 +1,25 @@
+{
+    "name": "PerformanceSupport/chat-plugin",
+    "description": "A composer chat plugin",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yusuph H. Kajabukama",
+            "email": "kajabukama@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "composer-plugin-api": "^1.0",
+        "composer/composer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "PerformanceSupport\\": "src"
+        }
+    },
+    "extra": {
+        "class": "PerformanceSupport\\Chat"
+    }
+}
